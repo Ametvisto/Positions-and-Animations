@@ -1,0 +1,68 @@
+position property */
+/* .box {
+     height: 100%;
+     width: 100%;
+     position: relative;
+} */
+/* .bg-wraper {
+     position: absolute;
+     top: 100px;
+     left: 50px;
+} */
+.image-box {
+     height: 100%;
+     width: 100%;
+}
+button {
+     background: red;
+          border-radius: 20px;
+          width: 250px;
+          padding: 10px;
+          top: 87px;
+   }
+.Cover {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(59, 212, 72, 0.5);
+     position: absolute;
+     top: 0; 
+     left: 0;
+     color: white;
+}
+
+
+.br-image {
+     background-image: url(../Image/egaa.jpg);
+     height: 600px;
+     width: 100%;
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+}
+.bg-wraper {
+     padding-top: 150px;
+     padding-left: 150px;
+}
+.title-h5 {
+     color: #fff;
+     font-size: 40px;
+     transition: all 0.3s linear 0.3s;
+}
+.title-h5:hover {
+     color: aqua;
+     background-color: pink;
+}
+.annimation-block {
+     width: 100px;
+     height: 300px;
+     background-color:green;
+     position: absolute;
+     animation-name: cube;
+     animation-duration: 0.5s;
+}
+
+@keyframes cube {
+      from{top:0};
+      to {top: 200px;}
+}
